@@ -50,6 +50,7 @@ resource "aws_security_group" "webserver" {
     Name = "${var.Project}-${var.Env}"
     Project = var.Project
     Env = var.Env
+    test = "none"
   }
 }
 
